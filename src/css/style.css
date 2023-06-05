@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+}
+
+main {
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    width: 900px;
+}
+
+.principal {
+    display: flex;
+    position: relative;
+}
+
+.imagem {
+    width: 375px;
+    height: auto;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 3rem;
+}
+
+.titulo {
+    color: hsl(217, 19%, 35%);
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.text {
+    color: hsl(214, 17%, 51%);
+    line-height: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.avatar-name {
+    display: flex;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.mini-card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name-date {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    justify-content: center;
+}
+
+.name {
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+.date {
+    color: hsl(214, 17%, 51%);
+}
+
+.compartilhar-img {
+    width: 28px;
+    height: 20px;
+    filter: brightness(0) invert(100%);
+}
+
+.compartilhar {
+    margin-top: 1.5rem;
+    padding-top: 0.6rem;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 50%;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    cursor: pointer;
+}
+
+.compartilhar:hover, .compartilhar:focus {
+    background-color: rgb(5, 58, 51);
+}
+
+.share-icons {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    width: 240px;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 1rem;
+    position: absolute;
+    margin: 10rem 0 0 18rem;
+    transition: 0.3s;
+}
+
+.esconder {
+    display: none;
+}
+
+.triangulo {
+    height: 30px;
+    width: 50px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid hsl(217, 19%, 35%);
+    position: absolute;
+    margin: 2rem;
+}
+
+.icons {
+    cursor: pointer;
+}
